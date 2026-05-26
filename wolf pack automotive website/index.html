@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolf Pack Automotive - Premium Auto Services</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><img src="images/wolf pack logo.jpeg" alt="Wolf Pack Automotive Logo" style="height:60px;vertical-align:middle;margin-right:10px;">Wolf Pack Automotive</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="form.html">Submit Vehicle Info</a></li>
+                <li><a href="login.html" class="btn-primary">Employee Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Wolf Pack Automotive</h1>
+            <p>Mobile mechanic services delivered to your location with fast, reliable care.</p>
+            <a href="form.html" class="btn btn-large">Get Started</a>
+        </div>
+    </header>
+
+    <section class="services-preview">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card" data-service="maintenance">
+                    <h3>🔧 General Maintenance</h3>
+                    <p>Oil changes, filter replacements, and routine inspections</p>
+                </div>
+                <div class="service-card" data-service="rv">
+                    <h3>🚐 RV Services</h3>
+                    <p>Specialized repairs, inspections, and maintenance for RVs and campers</p>
+                </div>
+                <div class="service-card" data-service="diagnostics">
+                    <h3>🔍 Diagnostics</h3>
+                    <p>Computer diagnostics and troubleshooting</p>
+                </div>
+            </div>
+
+            <!-- Modal for service details -->
+            <div id="serviceModal" class="modal hidden">
+                <div class="modal-content">
+                    <span id="closeModal" class="close">&times;</span>
+                    <h2 id="modalTitle"></h2>
+                    <ul id="modalDetails"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Service Your Vehicle?</h2>
+            <p>Submit your vehicle information and let us know what we can help with.</p>
+            <a href="form.html" class="btn btn-large">Submit Vehicle Information</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Wolf Pack Automotive. All rights reserved.</p>
+            <p>Domain: wolfpackautmotive.com</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
